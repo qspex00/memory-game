@@ -1,0 +1,39 @@
+.game img {
+    border: 1px solid black;
+}
+.game {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+.game-title {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.title {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.flip-result {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.game-end{
+    margin-top: 20px;
+    text-align: center;
+}
